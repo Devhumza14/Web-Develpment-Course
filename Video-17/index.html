@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div {
+            color: black;
+            background-color: chartreuse;
+        }
+
+        div>p {
+            color: aqua;
+            background-color: black;
+        }
+
+        .red {
+            color: darkgreen;
+        }
+
+        #blue {
+            color: dodgerblue;
+            background-color: black;
+        }
+
+        #green {
+            color: chartreuse;
+            background-color: darkmagenta;
+        }
+
+        div article {
+            color: darksalmon;
+            background-color: crimson;
+        }
+
+        /* this is universal selector */
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        /* this is pseudo selector */
+        a:visited {
+            color: yellow;
+
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+        p:first-child{
+            color: deeppink;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Element Selector -->
+
+    <div>
+        i am a div
+    </div>
+
+    <div>
+        i am div 2
+        <p>i have a paragraph in me that is my child</p>
+    </div>
+
+    <span>
+        i am a span
+
+    </span>
+
+    <!-- This is an example for class selector -->
+    <main class="red">
+        i will show class selector belong to class green
+    </main>
+    <main class="red">
+        i am also the class green
+    </main>
+
+    <main id="green">
+        i am id 13
+    </main>
+    <main id="blue">
+        i am id 14
+    </main>
+
+    <div>
+        <p>i am paragraph
+        <article>this is the article will be target with CSS</article>
+        </p>
+
+    </div>
+    <link>
+    <a href="https://www.google.com" target="_blank">Visit google</a>
+    <a href="https://www.youtube.com" target="_blank">visit youtube</a>
+    </link>
+
+    <span>
+        <p>i am first child we are twins</p>
+        <p>i am secound child we are twins</p>
+    </span>
+
+</body>
+
+</html>
