@@ -11,31 +11,32 @@
         }
 
         :root{
-            --color:rgba(162, 35, 35, 0.201);
-            --seccolor:rgb(184, 255, 184);
+            --color:rgba(0, 0, 0, 0.201);
+            --seccolor:rgb(180, 58, 58);
             --defpad:5px;
             
         }
         
-        div{
+        header{
             
             
 
         }
         
         ul{
-            display: flex;
+            /* display: inline; */
             list-style: none;
             color: var(--color);
             background-color: var(--seccolor);
         }
         ul li{
             padding: var(--defpad);
+            display: inline;
         }
     </style>
 </head>
 <body>
-    <div>
+    <header>
         <nav>
             <ul>
                 <li>Home</li>
@@ -43,7 +44,7 @@
                 <li>Contact</li>
             </ul>
         </nav>
-    </div>
+    </header>
     
 </body>
 </html>
