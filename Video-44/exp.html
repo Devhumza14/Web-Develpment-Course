@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid body excercise</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    .containor {
+        display: grid;
+        grid-template-areas: "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 card9";
+        ;
+
+        border: 2px solid black;
+        /* height: 100vh; */
+        width: 80vw;
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content: center;
+        align-content: center;
+
+
+
+    }
+
+    .btn {
+        padding: 10px 0;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 12px;
+        font-weight: bold;
+        
+    }
+
+    .btn-green {
+        background-color: rgb(167, 232, 167);
+        color: aliceblue;
+    }
+
+    .btn-blue {
+        background-color: rgb(196, 196, 239);
+        color: aliceblue;
+    }
+
+
+    .item {
+        height: 140px;
+        width: 324px;
+        border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+        /* gap: 340px; */
+        background-color: aliceblue;
+        display: grid;
+
+
+    }
+
+    .item-1 {
+
+        grid-area: card1;
+
+    }
+
+    .item-2 {
+        grid-area: card2;
+
+    }
+</style>
+
+<body>
+
+    <div class="containor">
+
+        <div class="item item-1">
+            <h3>English</h3>
+            <p>&nbsp;</p>
+            <div class="button-wrp">
+                <button class="btn btn-green">Download 32-bit</button>
+                <button class="btn btn-blue">Download 64-bit</button>
+            </div>
+
+        </div>
+        <div class="item item-2">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="item item-3">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-4">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-5">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-6">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-7">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-8">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="item item-9">
+            <div class="item item-1">
+                <h3>English</h3>
+                <p>&nbsp;</p>
+                <div class="button-wrp">
+                    <button class="btn btn-green">Download 32-bit</button>
+                    <button class="btn btn-blue">Download 64-bit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
