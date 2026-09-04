@@ -16,19 +16,52 @@
         .box{
             height: 40px;
             width: 20px;
-            background-color: firebrick;
-            animation: humzakaanimation;
-            animation-duration: 3s;
-            animation-iteration-count: 2;
+            /* background-color: firebrick; */
+            /* animation: humzakaanimation; */
+            /* animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-cubic-bezier(0.96,-0.04, 0, 0.97);
+            animation-delay: 1s;
+            animation-direction:alternate-reverse ; */
+            /* animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+            animation: humzakaanimation 1s ease-in-out 3s 1
+            ,humza2 3s ease-in-out 3s 1;
+
         }
 
         @keyframes humzakaanimation{
             from{
-
+                background-color: rgb(13, 10, 10);
             }
             to{
                 transform: translateX(1000px);
+                background-color: red;
             }
+
+        }
+
+        @keyframes humza2{
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            30%{
+                transform: rotate(220deg);}
+            50%{
+
+            }
+            80%{
+                transform: rotate(300deg)
+            }
+
+            100%{
+                transform: rotate(310deg)
+            }
+           
 
         }
 
@@ -38,7 +71,8 @@
 
     <div class="container">
         <div class="box">
-            
+            box
+
 
         </div>
     </div>
