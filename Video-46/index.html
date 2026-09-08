@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Animation</title>
 
     <style>
-        .container{
+        .container {
             height: 80vh;
             width: 40vw;
             background-color: wheat;
 
         }
 
-        .box{
+        .box {
             height: 40px;
             width: 20px;
             /* background-color: firebrick; */
@@ -26,47 +27,50 @@
             /* animation-play-state: paused; */
             /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
-            animation: humzakaanimation 1s ease-in-out 3s 1
-            ,humza2 3s ease-in-out 3s 1;
+            animation: humzakaanimation 1s ease-in-out 3s 1, humza2 3s ease-in-out 3s 1;
 
         }
 
-        @keyframes humzakaanimation{
-            from{
+        @keyframes humzakaanimation {
+            from {
                 background-color: rgb(13, 10, 10);
             }
-            to{
+
+            to {
                 transform: translateX(1000px);
                 background-color: red;
             }
 
         }
 
-        @keyframes humza2{
-            0%{
+        @keyframes humza2 {
+            0% {
                 transform: rotate(100deg);
             }
-            20%{
+
+            20% {
                 transform: rotate(200deg);
             }
-            30%{
-                transform: rotate(220deg);}
-            50%{
 
+            30% {
+                transform: rotate(220deg);
             }
-            80%{
+
+            50% {}
+
+            80% {
                 transform: rotate(300deg)
             }
 
-            100%{
+            100% {
                 transform: rotate(310deg)
             }
-           
+
 
         }
-
     </style>
 </head>
+
 <body>
 
     <div class="container">
@@ -76,6 +80,7 @@
 
         </div>
     </div>
-    
+
 </body>
+
 </html>

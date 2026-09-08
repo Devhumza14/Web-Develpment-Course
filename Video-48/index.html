@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise no 8 -- bounching ball animation</title>
+
+    <style>
+
+        *{
+
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .background {
+            background-color: yellow;
+            width: 80vw;
+            height: 70vh;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+        .ball {
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            border-radius: 127px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+            animation: seedha 5s linear 1s infinite alternate , bounce 0.5s ease-in infinite alternate;
+        }
+
+        @keyframes seedha {
+            from{
+
+
+            }
+
+            to{
+
+                transform: translateX(80vw);
+
+
+            }
+        }
+
+        @keyframes bounce{
+            from{
+                
+            }
+
+            to{
+
+                transform: translateY(30vh);
+
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="background">
+
+        <div class="ball">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
