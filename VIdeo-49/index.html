@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OBJECT FIT AND POSITION PROPERTY</title>
+
+    <style>
+        .containor{
+            height: 400px;
+            width: 400px;
+            background-color: bisque;
+            border: 2px solid black;
+            background-image: url(https://img.magnific.com/free-photo/neon-gaming-background_23-2151932069.jpg?semt=ais_hybrid&w=740&q=80);
+            background-position: center center;
+            /* background-repeat: no-repeat; */
+            /* background-repeat: repeat-x; */
+        }
+
+
+        img{
+
+            height: 400px;
+            width: 400px;
+            
+            /* object-fit: cover; */
+            object-fit: contain;
+
+            /* by default property of object is fill  */
+            object-position: bottom left;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="containor">
+
+        <!-- <img src="https://img.magnific.com/free-photo/neon-gaming-background_23-2151932069.jpg?semt=ais_hybrid&w=740&q=80" alt=""> -->
+        
+    </div>
+    
+</body>
+</html>
