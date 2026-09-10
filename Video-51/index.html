@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise no 8 Solution by CWH</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    
+
+        .container{
+            height: 600px;
+            width: 100vw;
+            background-color: black;
+            position: relative;
+            /* border: 2px solid springgreen; */
+            
+        }
+
+        .ball{
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            /* top: 0; */
+            border-radius: 23px;
+            animation: animateX 3s linear 1s infinite , animateY 1s ease-out 1s infinite alternate;
+            
+
+        }
+
+        @keyframes animateX{
+            from{
+                left: 0;
+
+            }
+
+            to{
+                left: 100%;
+            }
+        }
+
+        @keyframes animateY{
+            from{
+                bottom: 0;
+            }
+
+            to{
+                bottom: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
