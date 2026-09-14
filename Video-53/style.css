@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,9 +7,13 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .main {
     background-image: url(/assets/images/bg.jpg);
-    height: 80vh;
+    height: 90vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -72,10 +77,35 @@ nav button {
 
 }
 
-.hero :first-child {
-     font-family: "Martel Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 56px;
+.hero> :nth-child(1) {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
 
 }
+
+.hero> :nth-child(2) {
+    font-family: "Martel Sans", sans-serif;
+
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hero>:nth-child(3) {
+    font-family: "Martel Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    padding: 17px;;
+}
+
+.email{
+    display: flex;
+    flex-direction:row;
+    gap: 4px;
+
+}
+
+/* .email input{
+} */
