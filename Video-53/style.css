@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -40,7 +40,7 @@ nav {
     max-width: 85vw;
     margin: auto;
     /* background-color: azure; */
-    height:  88px;
+    height: 88px;
 }
 
 nav img {
@@ -51,22 +51,23 @@ nav img {
 
 }
 
-.btn{
+.btn {
     position: relative;
     z-index: 10;
     background-color: rgb(193, 17, 25);
     color: white;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
     border-radius: 6px;
-    padding: 9px 16px;
-    font-size: 24px;
+    padding: 9px 15px;
+    font-size: 16px;
+    cursor: pointer;
 
 
 
 }
 
-.btn-red{
+.btn-red {
     position: relative;
     z-index: 10;
     background-color: rgb(193, 17, 25);
@@ -118,12 +119,13 @@ nav img {
 
     font-weight: 400;
     font-size: 16px;
-    padding: 17px;;
+    padding: 17px;
+    ;
 }
 
-.email{
+.email {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 4px;
 
 }
@@ -131,9 +133,20 @@ nav img {
 /* .email input{
 } */
 
-.seperation{
-        height: 4px;  
-        background-color: rgb(43, 43, 43);  
-        
-        
+.seperation {
+    height: 4px;
+    background-color: rgb(43, 43, 43);
+
+
+}
+
+
+.hero input {
+    padding: 12px 48px;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 1px 137px 0px 16px;
+    border: 1px solid rgba(23, 23, 23, 0.3);
+    color: white;
 }
