@@ -150,3 +150,62 @@ nav img {
     border: 1px solid rgba(23, 23, 23, 0.3);
     color: white;
 }
+
+
+.first {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+.images img {
+    /* width: 100%; */
+    /* height: auto; */
+    border-radius: 6px;
+
+
+
+}
+
+.more-reason{
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    /* justify-content: flex-start; */
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+    color: white;
+    /* font-size: 24px; */
+    /* font-weight: bolder; */
+}
+
+
+
+
+
+
