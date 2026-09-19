@@ -77,6 +77,8 @@ nav img {
     padding: 12px 48px;
     border-radius: 6px;
     font-size: 24px;
+    cursor: pointer;
+
 
 
 
@@ -149,6 +151,8 @@ nav img {
     padding: 1px 137px 0px 16px;
     border: 1px solid rgba(23, 23, 23, 0.3);
     color: white;
+        cursor: pointer;
+
 }
 
 
@@ -159,7 +163,7 @@ nav img {
 
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -167,7 +171,7 @@ nav img {
     max-width: 80vw;
     margin: auto;
     padding: 20px 0px;
-    color: aliceblue;
+    color: white;
     font-size: 24px;
     font-weight: bolder;
 }
@@ -178,6 +182,8 @@ nav img {
     display: flex;
     flex-direction: row;
     gap: 20px;
+
+
 
 
 }
@@ -191,21 +197,116 @@ nav img {
 
 }
 
-.more-reason{
+.more-reason {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* text-align: center; */
     /* justify-content: flex-start; */
     max-width: 80vw;
     margin: auto;
     padding: 20px 0px;
     color: white;
+    gap: 23px;
     /* font-size: 24px; */
     /* font-weight: bolder; */
+
+}
+
+
+.more-text {
+
+    padding: 20px 0px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+
+}
+
+.cards-more {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: auto;
+    width: auto;
+    border: none;
+    gap: 23px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    padding: 23px;
+    border-radius: 12px;
+    position: relative;
+}
+
+
+.cards-more-bold {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cards-more-light {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.cards-icon {
+    position: absolute;
+    object-fit: contain;
+    right: 16px;
+    width: 72px;
+    bottom: 16px;
+    height: 72px;
 }
 
 
 
 
+.faq h2{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding-bottom: 23px;
+
+    
+    
+}
+
+.faqbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 17px;
+    padding: 30px;
+    gap: 30px;
+    color: white;
+    background-color: rgb(42, 40, 40);
+    font-size: 24px;
+    font-weight:500;
+    gap: 30px;
+    cursor: pointer;
+    transition: all 1s ease-out ;
+
+
+
+   
+}
+
+.faqbox:hover{
+    background-color: rgba(49, 49 ,49, 1);
+    
+}
 
 

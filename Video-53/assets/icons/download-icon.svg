@@ -1,0 +1,16 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://w3.org">
+  <defs>
+    <radialGradient id="paint0_radial_download" cx="36" cy="36" r="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E50914" />
+      <stop offset="100%" stop-color="#9B040C" />
+    </radialGradient>
+  </defs>
+  <g id="download-core-small">
+    <!-- Outer Circle ring arrow background -->
+    <path d="M62 36C62 50.3594 50.3594 62 36 62C21.6406 62 10 50.3594 10 36C10 21.6406 21.6406 10 36 10C50.3594 10 62 21.6406 62 36Z" fill="url(#paint0_radial_download)"/>
+    <!-- Downward arrow stem -->
+    <path d="M36 20V44M36 44L26 34M36 44L46 34" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Underline base bar -->
+    <path d="M22 50H50" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

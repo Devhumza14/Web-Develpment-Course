@@ -1,0 +1,22 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://w3.org">
+  <defs>
+    <linearGradient id="paint0_linear_device" x1="12" y1="16" x2="60" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E50914" />
+      <stop offset="100%" stop-color="#BC0811" />
+    </linearGradient>
+  </defs>
+  <g id="device-core-small">
+    <!-- Monitor Back Frame -->
+    <rect x="12" y="16" width="48" height="32" rx="4" fill="#221F1F" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- Monitor Screen Inner Display -->
+    <rect x="16" y="20" width="40" height="24" fill="url(#paint0_linear_device)"/>
+    <!-- Stand Base -->
+    <path d="M30 48H42L45 56H27L30 48Z" fill="#FFFFFF"/>
+    <!-- Mobile Phone Overlay in lower right corner -->
+    <rect x="48" y="38" width="14" height="24" rx="2" fill="#0F0E0E" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Phone Screen Display inside -->
+    <rect x="50" y="41" width="10" height="16" fill="#E50914"/>
+    <!-- Phone Home button point -->
+    <circle cx="55" cy="59" r="1" fill="#FFFFFF"/>
+  </g>
+</svg>
