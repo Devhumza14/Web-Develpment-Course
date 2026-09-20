@@ -151,7 +151,7 @@ nav img {
     padding: 1px 137px 0px 16px;
     border: 1px solid rgba(23, 23, 23, 0.3);
     color: white;
-        cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -310,3 +310,98 @@ nav img {
 }
 
 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    /* color: white; */
+}
+
+
+footer{
+    max-width: 80vw;
+    margin: auto;
+    height: 30vh;
+}
+
+.footer-question{
+
+    margin: 35px 0px;
+
+}
+
+footer a{
+    color: rgb(163, 158, 158);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.final-boss{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+    
+}
+
+.final-boss input{
+
+    padding: 12px 48px;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 1px 137px 0px 16px;
+    border: 1px solid rgba(23, 23, 23, 0.3);
+    color: white;
+
+    
+
+}
+
+.last-ride{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(107, 107, 107);
+    font-size: 13px;
+    height: 30vh;
+
+}
+
+.last-ride button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: 8px;
+    margin: 52px 0px;
+    color:white ;
+    background-color: rgba(23, 23, 23, 0.7); ;
+    border: 1px solid  rgb(252, 252, 252);
+    height: auto ;
+    text-align: center;
+    padding: 7px 12px;
+    font-weight: 700;
+    font-size: 17px;
+
+
+    
+}
