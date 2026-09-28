@@ -38,6 +38,6 @@ let hello = "  shahg"
 let new_hello = hello.trim()   // trim the spaces
 console.log(new_hello) 
 
-
+console.log(b)   // string are immutable mean they did change as we have applied so many peoperties and funcntion on b varable but he is still b as orignal (immubalitity mean cannot be changed)
 
 
