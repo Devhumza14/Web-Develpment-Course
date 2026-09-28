@@ -32,7 +32,11 @@ console.log(b.replace("pa","ma")) // replace the string and if papa has papapa m
 
 
 
+console.log(b.concat(a,"Naqvi","Syed"))
 
+let hello = "  shahg"
+let new_hello = hello.trim()   // trim the spaces
+console.log(new_hello) 
 
 
 
