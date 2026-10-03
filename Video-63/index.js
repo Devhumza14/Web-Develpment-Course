@@ -1,4 +1,4 @@
-let arr = [546646,"mango","banana"]
+// let arr = [546646,"mango","banana"]
 
 // console.log(arr)
 // console.log(arr.length)
@@ -33,15 +33,26 @@ let arr = [546646,"mango","banana"]
 // delete student[0]
 // console.log(student)    // but .lenght it shows the same let as the menry is allocated but the value is deleated 
 
-let student1 = ["Humza","haseeb","sheri"]
-let student2 = ["Humza","haseeb","sheri"]
-let student3 = ["Humza","haseeb","sheri"]
+// let student1 = ["Humza","haseeb","sheri"]
+// let student2 = ["Humza","haseeb","sheri"]
+// let student3 = ["Humza","haseeb","sheri"]
 
 // thhis method not changes the arrays
 
-let all = student1.concat(student2,student3)
-console.log(all)
+// let all = student1.concat(student2,student3)
+// console.log(all)
 
-let a = [343,4,3211]
-console.log(a.sort())   // sorted asending to descending  // and it modifies orignal array
+// let a = [343,4,3211]
+// console.log(a.sort())   // sorted asending to descending  // and it modifies orignal array
 
+
+
+// let num = [1,2,4,55,67];
+// console.log(num.splice(1,4))   // delete the num from index 1 and and 4 index elements after that including the starting index
+
+// console.log(num.splice(1,3,22,44))    // to addd Number we need to do  
+
+
+// let numbers = [1,2,3,4,5];
+// console.log(numbers.slice(1,2))
+// console.log(numbers.reverse())
