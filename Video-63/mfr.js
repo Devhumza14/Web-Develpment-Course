@@ -34,19 +34,19 @@
 
 
 
-// let array = [1,23,4,5,6]
+//  let array = [1,23,4,5,6]
 
-// const reduced = (a,b)=>{
-//     return a*b                  /// reduce is used when we need to run a fnction and we want tht at function to run on the                                value   of the array 
+ const reduced = (a,b)=>{
+     return a*b                  /// reduce is used when we need to run a fnction and we want tht at function to run on the                                value   of the array 
  
 
-// }
+ }
 
-// console.log(array.reduce(reduced))
-
-// 
+ console.log(array.reduce(reduced))
 
 
 
 
-console.log(Array.from("harry"));
+
+
+// console.log(Array.from("harry"));
