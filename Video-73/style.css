@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 123px;
+    width: 60vw;
+    max-width: auto;
+    /* padding: 36px; */
+    margin: 45px;
+    border-radius: 19px;    
+    overflow: hidden;
+}
+
+
+.left{
+    width: 150px;
+    height: 123px;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 19px;
+    
+}
+
+.title p {
+    color: white;
+}
