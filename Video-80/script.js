@@ -47,8 +47,14 @@ class lion extends animal {
         console.log("this is a object and its name is shera")
 
     }
+    jump() {
+        super.jump();
+
+        console.log("i am juming jumpoo")   // method overriding
+    }
 
 }
 
 let l = new lion ("shera")
 console.log(l)
+
